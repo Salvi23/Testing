@@ -1,0 +1,37 @@
+body {
+    font-size: 32px; 
+}
+
+#wrapper {
+    width: 70vw; 
+    height: 50vh; 
+    background: rgb(182, 178, 178); 
+    margin-top: 20px; 
+    margin-right: auto;
+    margin-left: auto; 
+    display: flex; 
+    justify-content: space-around; 
+    align-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+h3 {
+    text-align: center; 
+}
+.draggable { 
+    height: 50px; 
+    border: 1px solid black; 
+    padding: 20px;       
+}
+
+.letter {
+    width: 50px; 
+    background: rgb(255, 0, 0); 
+}
+
+.word {
+    width: 150px; 
+    background: yellow;  
+}
+
